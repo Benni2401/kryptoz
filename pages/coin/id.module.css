@@ -1,0 +1,114 @@
+.Headings{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mainH{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.Middle{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.Middle > .MiddleOne > strong, .Middle > .MiddleTwo > strong, .Middle > .MiddleThree > strong {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.mainH > a > p{
+    font-family: 'Spartan', sans-serif;
+    font-size: 12px;
+    padding: 25px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #efefefb1;
+}
+.mainH > h1{
+    font-family: 'Praise', sans-serif;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+.Headings > h1{
+    font-family: 'Cairo', sans-serif;
+}
+.Headings > span{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.mainH > a > button{
+    background: transparent;
+    color: rgba(238, 143, 28, 0.666);
+    padding: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Cairo', sans-serif;
+    border: 1px solid rgba(238, 143, 28, 0.666);
+
+}
+.mainH > a > button:hover{
+    box-shadow: 0px 0px 12px -4px darkorange;
+    transition: 0.2s ease;
+}
+
+.MiddleOne, .MiddleTwo, .MiddleThree{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.MiddleOne > p, .MiddleTwo > p, .MiddleThree > p{
+    font-family: 'Spartan', sans-serif;
+    font-size: 10px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.HeadingMiddle > strong{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 9px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+.HeadingMiddle >span{
+    font-size: 11px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+}
+
+.Headings > img{
+    border: 1px solid lightgrey;
+    border-radius:999px;
+}
+.Rank > strong{
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+}
+.Rank > p{
+    font-family: 'Spartan', sans-serif;
+    border: 1px solid lightgrey;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    color: #fff;
+    background-color: #ffad15;
+}
+.Rank{
+    padding:20px;
+    height: 70px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}

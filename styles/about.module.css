@@ -1,0 +1,36 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+.about > .left{
+    margin-top: 98px;
+}
+.left > h1{
+    font-family: 'Praise', sans-serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+.left > p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: darkorange;
+}
+.left > span{
+    font-family: 'Spartan', sans-serif;
+    font-size: 14px;
+    line-height: 38px;
+}
+.left > span > a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 760px) {
+    .about{
+        display: block;
+    }
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Praise&family=Spartan:wght@300;400;500;600;700&display=swap');
+
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #e0970f82;
+    max-width: 100%;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+.nav > .left > a{
+    text-decoration: none;
+    font-family: 'Praise', sans-serif;
+    color: black !important;
+    font-size: 38px;
+}
+.right > ul{
+    display: flex;
+    flex-direction: row;
+}
+.right > ul > li{
+    margin-right: 20px;
+    margin-left: 20px;
+    list-style: none;
+    padding: 16px;
+    border-bottom: 1px solid transparent;
+}
+.right > ul > li > a{
+    text-decoration: none;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+}
+.right > ul > li:hover{
+    background: rgba(255, 166, 0, 0.354);
+    border-bottom: 1px solid black;
+
+}
+
+@media screen and (max-width: 760px) {
+    .nav{
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .nav{
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

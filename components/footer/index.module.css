@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito+Sans:wght@200;400;500&display=swap');
+
+
+.footer > footer {
+    background: #2F2E41;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    bottom: -45px;
+    text-align: center;
+    border-top: 1px solid lightgray;
+}
+.footer > footer > abbr > p{
+    font-family: 'Kaushan Script', sans-serif;
+    letter-spacing:1px;
+    font-size: 13px;
+    color: white;
+}
+.footer > footer > abbr > p > a{
+    text-decoration: none;
+    color: white;
+}
+.footer > footer > abbr > p > a:hover{
+    color: #ffad15;
+}
+@media screen and (max-width: 760px) {
+    .footer > footer{
+        background: #2F2E41;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        border-top: 1px solid lightgray;
+    }
+}

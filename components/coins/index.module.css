@@ -1,0 +1,95 @@
+.coin{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+    /* background-color: white; */
+    justify-content: space-evenly;
+}
+.coin:hover{
+    background-color: #f0f0f0;
+    color: black;
+    cursor: pointer;
+}
+.mainHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mainHeader > h1{
+    font-family: 'Spartan', sans-serif;
+    font-size: 13px;
+    padding: 17px;
+}
+.Center >  span{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+.Center > p{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.Center > strong{
+    font-family: 'Spartan', sans-serif;
+    font-size: 12px;
+}
+.Center > .Cred{
+    color: red;
+}
+.Center > .Cgreen{
+    color: rgb(106, 201, 12);
+}
+/* 
+@media screen and (max-width: 760px) {
+    .coin > .mainHeader{       
+        width: 1000px;
+    }
+} */
+
+.Center{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    justify-content: flex-start;
+}
+@media screen and (max-width: 760px){
+    .mainDiv{
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .mainDiv{
+        width: 50px;
+    }
+}
+.mainDiv > p.p:hover{
+    color: #f3b919;
+}
+.mainDiv > p.p{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    width: 22px;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    border: 1px solid rgb(209, 209, 209);
+    padding-top: -1px;
+    padding-bottom: -1px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: gray;
+    background: rgb(238, 238, 238);
+    
+}

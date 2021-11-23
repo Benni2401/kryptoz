@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Praise&family=Spartan:wght@300;400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito+Sans:wght@200;400;500&display=swap');
+
+
+.main{
+    width: 100%;
+    margin-top: 80px;
+    padding: 15px;
+}
+.main > h1{
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 38px;
+
+}
+.main > p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 6px;
+}
+.main > form{
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: -5px;
+}
+.main > form > .input > input[type="text"]{
+    border: 1px solid transparent;
+    margin-right: -10px;
+    margin-left: 10px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+    color: gray;
+    padding-left: 12px;
+    width: 310px;
+    padding-top: 11.6px;
+    padding-bottom: 11.6px;
+}
+.main > form > .input > input[type="text"]:focus{
+    border: 1px solid #ffad15;
+    box-shadow: none;
+    outline: none;
+    transition: 0.2s ease-in-out all;
+}
+.main > form > .button{
+    padding: 10px;
+    border: none;
+
+}
+.main > form > .button > button{
+    padding-top: 15.8px;
+    padding-bottom: 15.8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: 50px;
+    background-color: #ffad15;
+}
+.main > form > .button > button:hover{
+    box-shadow: 0px 0px 5px -2px gray;
+    transition: 0.3s ease all;
+}
